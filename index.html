@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./Assets/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="./Css/style.css">
+    <link rel="stylesheet" href="./Css/responsive.css">
+    <title>Translator</title>
+</head>
+<body>
+    <div class="mainBox">
+
+        <div class="textBox">
+            <textarea class="textArea" placeholder="Your text goes here..."></textarea>
+        </div>
+
+        <div class="buttons">
+            <select class="leftSelect" name="">
+                <option class="options" value="en">English</option>
+                <option class="options" value="hi">Hindi</option>
+            </select>
+
+            <button class="translateButton" onclick="translateText()">Translate</button>
+
+            <select class="rightSelect" name="">
+                <option class="options" value="hi">Hindi</option>
+                <option class="options" value="en">English</option>
+            </select>
+
+        </div>
+
+    </div>
+
+    <script src="./Javascript/script.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,82 @@
+@media (max-width: 480px) {
+  .mainBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+  }
+  .mainBox .waitingPara {
+    padding: 50px 20px;
+    font-family: "Rubik", sans-serif;
+    text-align: center;
+  }
+  .mainBox .translatedPara {
+    width: 330px;
+    padding: 20px 30px;
+    margin: 15px 0px;
+    background: #d5fff5;
+    font-family: "IBM Plex Sans Devanagari", sans-serif;
+    font-size: 14px;
+  }
+  .mainBox .againButton {
+    border: none;
+    padding: 10px 30px;
+    border-radius: 6px;
+    background-color: #658ac1;
+    transition: all;
+    transition-duration: 0.5s;
+    cursor: pointer;
+    font-family: "Rubik", sans-serif;
+  }
+  .mainBox .againButton:hover {
+    background-color: #4262a7;
+  }
+  .mainBox .textBox {
+    padding: 20px 0px;
+  }
+  .mainBox .textBox .textArea {
+    width: 330px;
+    height: 431px;
+    padding: 20px 30px;
+    resize: none;
+    background: #d5fff5;
+    border-radius: 15px;
+    border: none;
+    outline-color: #66aef9;
+    font-family: "IBM Plex Sans Devanagari", sans-serif;
+    font-size: 14px;
+  }
+  .mainBox .buttons {
+    display: flex;
+  }
+  .mainBox .buttons .leftSelect, .mainBox .buttons .rightSelect {
+    border: none;
+    outline: none;
+    padding: 10px 15px;
+    background-color: #59b2ff;
+    transition: all;
+    transition-duration: 0.5s;
+    cursor: pointer;
+    font-family: "Rubik", sans-serif;
+  }
+  .mainBox .buttons .leftSelect .options, .mainBox .buttons .rightSelect .options {
+    background-color: rgb(94, 204, 248);
+  }
+  .mainBox .buttons .leftSelect .options:hover, .mainBox .buttons .rightSelect .options:hover {
+    background-color: rgb(68, 120, 235);
+  }
+  .mainBox .buttons .translateButton {
+    border: none;
+    padding: 10px 30px;
+    margin: 0px 15px;
+    border-radius: 6px;
+    background-color: #65c189;
+    transition: all;
+    transition-duration: 0.5s;
+    cursor: pointer;
+    font-family: "Rubik", sans-serif;
+  }
+  .mainBox .buttons .translateButton:hover {
+    background-color: #52a742;
+  }
+}/*# sourceMappingURL=responsive.css.map */
